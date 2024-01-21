@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Repositories</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>GitHub Repositories</h1>
+
+        <!-- Optional Search Bar -->
+        <input type="text" id="searchInput" placeholder="Search repositories">
+
+        <!-- Display Repositories -->
+        <ul id="repoList"></ul>
+
+        <!-- Pagination Controls -->
+        <div id="pagination">
+            <button id="prevBtn" disabled>&lt; Prev</button>
+            <span id="currentPage">Page 1</span>
+            <button id="nextBtn">Next &gt;</button>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
